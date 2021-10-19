@@ -42,7 +42,6 @@ Let's start the analysis by importing the ggplot2 library, then reading the data
 ```{r message=FALSE, warning=FALSE}
 library(ggplot2)
 library(ggthemes) # For the economist theme
-library(ggrepel) # For adding annotation
 library(dplyr) # For pipe operator which I used as an alternative way to produce a plot variable
 ```
 
