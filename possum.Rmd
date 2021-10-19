@@ -3,7 +3,7 @@ title: "Possums in Australia and New Guinea"
 subtitle: |
   | Advanced visualisation in R
 author: 
-  - M. Saeed Pourjafar (436817)
+  - M. Saeed Pourjafar
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
   html_document:
