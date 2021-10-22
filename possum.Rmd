@@ -96,7 +96,7 @@ p1 <- p + labs(x = "Head length",
             override.aes = list(shape = 15, alpha = 1, size = 8))) +
   annotate("text", x = 96.6, y = 67.8, label = "A wide-skull female", size=2.5) 
 
-p1 + theme_economist()  
+p1 + theme_economist()  # We can also use another theme for the plot from the package ggthemes
 ```
 
 But we can also plot more information based on our data. For example in the plot below I decided to include **pop** variable which shows whether the possum is came from Victoria population or other population such as New South Wales and Queensland. We can also include **geom_rug()** to display individual since our dataset is not that large. In the plot below we can find out that in overall the variance of head length for Victoria population is smaller than other population as the most triangle shapes (Victoria) are bundled together and are closer to each other. 
